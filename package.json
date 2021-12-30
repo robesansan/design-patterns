@@ -10,10 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
     "watch": "tsc -w -p .",
-
+    "format": "prettier --write src/**/*.ts",
     "abstract-factory": "npx ts-node ./src/creational/abstract-factory/index.ts",
     "factory-method": "npx ts-node ./src/creational/factory-method/index.ts",
-
     "facade": "npx ts-node ./src/structural/facade/index.ts",
     "proxy": "npx ts-node ./src/structural/proxy/index.ts"
   },
@@ -29,6 +28,7 @@
   "homepage": "https://github.com/robesansan/designpatterns#readme",
   "dependencies": {},
   "devDependencies": {
+    "prettier": "2.5.1",
     "ts-node": "10.4.0",
     "typescript": "4.5.4"
   }
