@@ -1,7 +1,16 @@
 # Design Patterns
 Just doing a review of some design patterns I can use in the frontend part
 
-<br />  
+<br /> 
+
+## Creational
+
+### Factory Method
+~~~
+npm run factory-method
+~~~
+
+<br /> 
 
 ## Structural
 
@@ -14,5 +23,3 @@ npm run facade
 ~~~
 npm run proxy
 ~~~
-
-
