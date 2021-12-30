@@ -11,7 +11,8 @@
     "build": "tsc -p .",
     "watch": "tsc -w -p .",
 
-    "facade": "npx ts-node ./src/structural/facade/index.ts"
+    "facade": "npx ts-node ./src/structural/facade/index.ts",
+    "proxy": "npx ts-node ./src/structural/proxy/index.ts"
   },
   "repository": {
     "type": "git",

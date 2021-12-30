@@ -10,3 +10,9 @@ Just doing a review of some design patterns I can use in the frontend part
 npm run facade
 ~~~
 
+### Proxy
+~~~
+npm run proxy
+~~~
+
+
