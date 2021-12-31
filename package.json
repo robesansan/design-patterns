@@ -11,6 +11,8 @@
     "build": "tsc -p .",
     "watch": "tsc -w -p .",
     "format": "prettier --write src/**/*.ts",
+    "iterator": "npx ts-node ./src/behavioral/iterator/index.ts",
+    "iterator-symbol": "npx ts-node ./src/behavioral/iterator/symbol.ts",
     "strategy": "npx ts-node ./src/behavioral/strategy/index.ts",
     "abstract-factory": "npx ts-node ./src/creational/abstract-factory/index.ts",
     "factory-method": "npx ts-node ./src/creational/factory-method/index.ts",

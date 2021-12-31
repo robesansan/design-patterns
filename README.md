@@ -6,6 +6,18 @@ Just doing a review of some design patterns I can use in the frontend part
 
 ## Behavioral
 
+### Iterator (without Symbol.iterator)
+
+```
+npm run iterator
+```
+
+### Iterator (using Symbol.iterator)
+
+```
+npm run iterator-symbol
+```
+
 ### Strategy
 
 ```
