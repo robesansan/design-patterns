@@ -74,6 +74,12 @@ npm run iterator
 npm run iterator-symbol
 ```
 
+### Memento
+
+```
+npm run memento
+```
+
 ### Strategy
 
 ```
