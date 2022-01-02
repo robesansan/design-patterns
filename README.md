@@ -44,6 +44,12 @@ npm run factory-method
 
 ## Structural
 
+### Composite
+
+```
+npm run composite
+```
+
 ### Decorator
 
 ```
