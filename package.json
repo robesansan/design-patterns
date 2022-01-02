@@ -18,6 +18,7 @@
     "composite": "npx ts-node ./src/structural/composite/index.ts",
     "decorator": "npx ts-node ./src/structural/decorator/index.ts",
     "facade": "npx ts-node ./src/structural/facade/index.ts",
+    "flyweight": "npx ts-node ./src/structural/flyweight/index.ts",
     "proxy": "npx ts-node ./src/structural/proxy/index.ts",
     "command": "npx ts-node ./src/behavioral/command/index.ts",
     "iterator": "npx ts-node ./src/behavioral/iterator/index.ts",

@@ -52,6 +52,12 @@ npm run decorator
 npm run facade
 ```
 
+### Flyweight
+
+```
+npm run flyweight
+```
+
 ### Proxy
 
 ```
