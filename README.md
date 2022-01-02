@@ -40,6 +40,12 @@ npm run abstract-factory
 npm run factory-method
 ```
 
+### Prototype
+
+```
+npm run prototype
+```
+
 <br />
 
 ## Structural

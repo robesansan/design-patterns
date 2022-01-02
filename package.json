@@ -16,6 +16,7 @@
     "strategy": "npx ts-node ./src/behavioral/strategy/index.ts",
     "abstract-factory": "npx ts-node ./src/creational/abstract-factory/index.ts",
     "factory-method": "npx ts-node ./src/creational/factory-method/index.ts",
+    "prototype": "npx ts-node ./src/creational/prototype/index.ts",
     "composite": "npx ts-node ./src/structural/composite/index.ts",
     "decorator": "npx ts-node ./src/structural/decorator/index.ts",
     "facade": "npx ts-node ./src/structural/facade/index.ts",
