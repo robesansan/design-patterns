@@ -4,28 +4,6 @@ Just doing a review of some design patterns I can use in the frontend part
 
 <br />
 
-## Behavioral
-
-### Iterator (without Symbol.iterator)
-
-```
-npm run iterator
-```
-
-### Iterator (using Symbol.iterator)
-
-```
-npm run iterator-symbol
-```
-
-### Strategy
-
-```
-npm run strategy
-```
-
-<br />
-
 ## Creational
 
 ### Abstract Factory
@@ -72,4 +50,32 @@ npm run facade
 
 ```
 npm run proxy
+```
+
+<br />
+
+## Behavioral
+
+### Command
+
+```
+npm run command
+```
+
+### Iterator (without Symbol.iterator)
+
+```
+npm run iterator
+```
+
+### Iterator (using Symbol.iterator)
+
+```
+npm run iterator-symbol
+```
+
+### Strategy
+
+```
+npm run strategy
 ```

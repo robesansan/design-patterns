@@ -11,16 +11,17 @@
     "build": "tsc -p .",
     "watch": "tsc -w -p .",
     "format": "prettier --write src/**/*.ts",
-    "iterator": "npx ts-node ./src/behavioral/iterator/index.ts",
-    "iterator-symbol": "npx ts-node ./src/behavioral/iterator/symbol.ts",
-    "strategy": "npx ts-node ./src/behavioral/strategy/index.ts",
     "abstract-factory": "npx ts-node ./src/creational/abstract-factory/index.ts",
     "factory-method": "npx ts-node ./src/creational/factory-method/index.ts",
     "prototype": "npx ts-node ./src/creational/prototype/index.ts",
     "composite": "npx ts-node ./src/structural/composite/index.ts",
     "decorator": "npx ts-node ./src/structural/decorator/index.ts",
     "facade": "npx ts-node ./src/structural/facade/index.ts",
-    "proxy": "npx ts-node ./src/structural/proxy/index.ts"
+    "proxy": "npx ts-node ./src/structural/proxy/index.ts",
+    "command": "npx ts-node ./src/behavioral/command/index.ts",
+    "iterator": "npx ts-node ./src/behavioral/iterator/index.ts",
+    "iterator-symbol": "npx ts-node ./src/behavioral/iterator/symbol.ts",
+    "strategy": "npx ts-node ./src/behavioral/strategy/index.ts"
   },
   "repository": {
     "type": "git",
