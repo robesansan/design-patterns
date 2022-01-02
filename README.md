@@ -28,6 +28,12 @@ npm run prototype
 
 ## Structural
 
+### Bridge
+
+```
+npm run bridge
+```
+
 ### Composite
 
 ```
