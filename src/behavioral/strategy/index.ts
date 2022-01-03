@@ -1,7 +1,7 @@
 /**
  * The Context defines the interface of interest to clients.
  */
-class Context {
+class StrategyContext {
   /**
    * @type {Strategy} The Context maintains a reference to one of the Strategy
    * objects. The Context does not know the concrete class of a strategy. It
@@ -73,12 +73,12 @@ class ConcreteStrategyB implements Strategy {
  * client should be aware of the differences between strategies in order to make
  * the right choice.
  */
-const context = new Context(new ConcreteStrategyA());
+const strategyContext = new StrategyContext(new ConcreteStrategyA());
 console.log("Client: Strategy is set to normal sorting.");
-context.doSomeBusinessLogic();
+strategyContext.doSomeBusinessLogic();
 
 console.log("");
 
 console.log("Client: Strategy is set to reverse sorting.");
-context.setStrategy(new ConcreteStrategyB());
-context.doSomeBusinessLogic();
+strategyContext.setStrategy(new ConcreteStrategyB());
+strategyContext.doSomeBusinessLogic();

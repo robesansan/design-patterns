@@ -98,6 +98,12 @@ npm run iterator-symbol
 npm run memento
 ```
 
+### State
+
+```
+npm run state
+```
+
 ### Strategy
 
 ```
