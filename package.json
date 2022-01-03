@@ -24,6 +24,7 @@
     "command": "npx ts-node ./src/behavioral/command/index.ts",
     "iterator": "npx ts-node ./src/behavioral/iterator/index.ts",
     "iterator-symbol": "npx ts-node ./src/behavioral/iterator/symbol.ts",
+    "mediator": "npx ts-node ./src/behavioral/mediator/index.ts",
     "memento": "npx ts-node ./src/behavioral/memento/index.ts",
     "observer": "npx ts-node ./src/behavioral/observer/index.ts",
     "state": "npx ts-node ./src/behavioral/state/index.ts",

@@ -92,6 +92,12 @@ npm run iterator
 npm run iterator-symbol
 ```
 
+### Mediator
+
+```
+npm run mediator
+```
+
 ### Memento
 
 ```
