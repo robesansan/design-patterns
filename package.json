@@ -12,6 +12,7 @@
     "watch": "tsc -w -p .",
     "format": "prettier --write src/**/*.ts",
     "abstract-factory": "npx ts-node ./src/creational/abstract-factory/index.ts",
+    "builder": "npx ts-node ./src/creational/builder/index.ts",
     "factory-method": "npx ts-node ./src/creational/factory-method/index.ts",
     "prototype": "npx ts-node ./src/creational/prototype/index.ts",
     "bridge": "npx ts-node ./src/structural/bridge/index.ts",

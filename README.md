@@ -12,6 +12,12 @@ Just doing a review of some design patterns I can use in the frontend part
 npm run abstract-factory
 ```
 
+### Builder
+
+```
+npm run builder
+```
+
 ### Factory Method
 
 ```
