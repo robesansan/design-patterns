@@ -103,3 +103,9 @@ npm run memento
 ```
 npm run strategy
 ```
+
+### Template Method
+
+```
+npm run template-method
+```
