@@ -27,7 +27,8 @@
     "memento": "npx ts-node ./src/behavioral/memento/index.ts",
     "state": "npx ts-node ./src/behavioral/state/index.ts",
     "strategy": "npx ts-node ./src/behavioral/strategy/index.ts",
-    "template-method": "npx ts-node ./src/behavioral/template-method/index.ts"
+    "template-method": "npx ts-node ./src/behavioral/template-method/index.ts",
+    "visitor": "npx ts-node ./src/behavioral/visitor/index.ts"
   },
   "repository": {
     "type": "git",

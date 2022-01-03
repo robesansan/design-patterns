@@ -115,3 +115,9 @@ npm run strategy
 ```
 npm run template-method
 ```
+
+### Visitor
+
+```
+npm run visitor
+```
