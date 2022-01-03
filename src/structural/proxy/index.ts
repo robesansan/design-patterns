@@ -3,7 +3,7 @@
  * Proxy. As long as the client works with RealSubject using this interface,
  * you'll be able to pass it a proxy instead of a real subject.
  */
-interface Subject {
+interface IPSubject {
   request(): void;
 }
 
@@ -13,7 +13,7 @@ interface Subject {
  * e.g. correcting input data. A Proxy can solve these issues without any
  * changes to the RealSubject's code.
  */
-class RealSubject implements Subject {
+class RealSubject implements IPSubject {
   public request(): void {
     console.log("RealSubject: Handling request.");
   }
@@ -22,7 +22,7 @@ class RealSubject implements Subject {
 /**
  * The Proxy has an interface identical to the RealSubject.
  */
-class ProxySubject implements Subject {
+class PProxy implements IPSubject {
   private realSubject: RealSubject;
 
   /**
@@ -65,7 +65,7 @@ class ProxySubject implements Subject {
  * directly. In this case, to implement the pattern more easily, you can extend
  * your proxy from the real subject's class.
  */
-function spClientCode(subject: Subject) {
+function spClientCode(subject: IPSubject) {
   // ...
 
   subject.request();
@@ -80,5 +80,5 @@ spClientCode(realSubject);
 console.log("");
 
 console.log("Client: Executing the same client code with a proxy:");
-const proxy = new ProxySubject(realSubject);
+const proxy = new PProxy(realSubject);
 spClientCode(proxy);
