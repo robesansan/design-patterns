@@ -30,6 +30,12 @@ npm run factory-method
 npm run prototype
 ```
 
+### Singleton
+
+```
+npm run singleton
+```
+
 <br />
 
 ## Structural

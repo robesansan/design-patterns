@@ -15,6 +15,7 @@
     "builder": "npx ts-node ./src/creational/builder/index.ts",
     "factory-method": "npx ts-node ./src/creational/factory-method/index.ts",
     "prototype": "npx ts-node ./src/creational/prototype/index.ts",
+    "singleton": "npx ts-node ./src/creational/singleton/index.ts",
     "bridge": "npx ts-node ./src/structural/bridge/index.ts",
     "composite": "npx ts-node ./src/structural/composite/index.ts",
     "decorator": "npx ts-node ./src/structural/decorator/index.ts",
