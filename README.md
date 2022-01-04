@@ -80,6 +80,12 @@ npm run proxy
 
 ## Behavioral
 
+### Chain of Responsibility
+
+```
+npm run chain-of-responsibility
+```
+
 ### Command
 
 ```

@@ -22,6 +22,7 @@
     "facade": "npx ts-node ./src/structural/facade/index.ts",
     "flyweight": "npx ts-node ./src/structural/flyweight/index.ts",
     "proxy": "npx ts-node ./src/structural/proxy/index.ts",
+    "chain-of-responsibility": "npx ts-node ./src/behavioral/chain-of-responsibility/index.ts",
     "command": "npx ts-node ./src/behavioral/command/index.ts",
     "iterator": "npx ts-node ./src/behavioral/iterator/index.ts",
     "iterator-symbol": "npx ts-node ./src/behavioral/iterator/symbol.ts",
