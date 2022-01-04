@@ -40,6 +40,12 @@ npm run singleton
 
 ## Structural
 
+### Adapter
+
+```
+npm run adapter
+```
+
 ### Bridge
 
 ```
